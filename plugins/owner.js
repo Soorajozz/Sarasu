@@ -12,7 +12,7 @@ if (Config.WORKTYPE == 'private') {
         }
 
         if (Config.OWNER == 'default') {
-            await message.client.sendMessage(message.jid,'*Amalser by Amal*' , MessageType.text);
+            await message.client.sendMessage(message.jid,'*Amalser by Sooraj_ozz*' , MessageType.text);
         }
         else {
             await message.client.sendMessage(message.jid,Config.OWNER + '\n\n---------------------', MessageType.text);
